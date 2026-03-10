@@ -1,26 +1,55 @@
 /* Color Palette
-# - color 1
-# - color 2
-# - color 3
-# - color 4
+#13262f - Jet Black
+#CAC4CE - Pale Slate
+#F7ECE1 - Linen
+#1F2937 - charcoal
 */
+
+
+
+h1,h2,h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.75rem;
+}
 
 /* Global styles 
 ------------------------------------*/
 body {
-    /*background: lightblue;*/
+    background-color: #f8fafc;
+    color: #1F2937;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin: 0;
 }
 
 
 /* Header & Footer 
 ------------------------------------*/
 
+header, footer{
+    background-color: #13262f;
+    color: white;
+}
 
 
 /* Work Experience
 ------------------------------------*/
-
+.experience{
+    background-color: #f7ece1;
+    color: #13262f;
+}
 
 
 /* Education
 ------------------------------------*/
+.education{
+    background-color: #CAC4CE;
+
+}
